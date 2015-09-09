@@ -1,0 +1,42 @@
+*{
+    font-family:sans-serif;
+}
+
+img {
+    float: left;
+}
+
+header {
+    text-indent: 100px;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 30px;
+    color: orange;
+    text-shadow: 2px 2px 2px black;
+}
+
+h2 {
+    font-size: 25px;
+}
+h2::first-letter{
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+a {
+    color: orange;
+    font-weight: bold;   
+}
+a:hover{
+    color: green;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+}
