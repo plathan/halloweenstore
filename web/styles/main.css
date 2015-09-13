@@ -2,19 +2,38 @@
     font-family:sans-serif;
 }
 
-img {
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-image: url('../images/bats.gif');
+}
+
+.pumpkin {
     float: left;
 }
 
 header {
     text-indent: 50px;
+    background: linear-gradient(45deg, white, orange 75%, black);
+    border: 3px solid black;
+    border-left: none;
+    border-right: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: white;
+    width: 800px;
+    border: 5px black solid;
+    box-shadow: 0 10px 10px 5px black;
+    margin: auto;
 }
 
 h1 {
-    font-style: italic;
-    font-size: 30px;
-    color: orange;
-    text-shadow: 2px 2px 2px black;
+
 }
 
 h2 {
@@ -41,6 +60,12 @@ li {
 }
 
 footer {
+    height: 50px;
+    line-height: 50px;
+    border-top-style: solid;
+    border-top-color: black;
+    border-top-width: 3px;
     text-align: center;
     font-size: 10px;
+    background: linear-gradient(45deg, black, orange 25%, white);  
 }
