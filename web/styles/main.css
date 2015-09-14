@@ -32,8 +32,14 @@ body {
     margin: auto;
 }
 
-h1 {
+ul {
+    height: 500px;
+    width: 160px;
+    float: left;
+}
 
+h1 {
+    font-size: 30px;
 }
 
 h2 {
