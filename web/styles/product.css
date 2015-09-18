@@ -34,7 +34,6 @@ nav {
     padding: 0;
     float: left;
 }
-
 .navlink:link, .navlink:visited {
     width: 150px;
     font-weight: bold;
@@ -45,7 +44,6 @@ nav {
     text-decoration: none;
     display: block;
 }
-
 .navlink:hover {
     background-color: grey;
 }
@@ -75,7 +73,7 @@ body {
     margin: auto;
 }
 
-.products {
+#products {
     padding: 5px;
     clear: both;
     height: 500px;
@@ -83,11 +81,32 @@ body {
     float: left;
 }
 
+#suggestions {
+    padding: 5px;
+    height: 500px;
+    width: 180px;
+    float: right;
+    background-color: #F5DEB3;
+}
+.suggestlist{
+    list-style-type: none;
+    padding: 5px;
+}
+.suggestlink:link, .suggestlink:visited{
+    color: black;
+}
+.suggestlink:hover{
+    color: green;
+}
+
+h4 {
+    font-size: 15px;
+}
+
 .prodlist {
     padding: 0 0 5px 5px;
     list-style-type: none;
 }
-
 .prodlink {
     border: 3px solid black;
     width: 120px;
@@ -122,14 +141,15 @@ h3 {
 }
 
 .prodweek {
-    color: orange;
-    font-weight: bold;
-}
-.prodweek:hover {
-    color: green;
+    float: left;
 }
 .cat1 {
-    
+    float: left;
+}
+.productdesc {
+    margin-left: 20px;
+    width: 200px;
+    float: left;
 }
 
 footer {
