@@ -1,0 +1,130 @@
+*{
+    font-family:sans-serif;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-image: url('../images/bats.gif');
+}
+
+.pumpkin {
+    float: left;
+}
+
+header {
+    height: 100px;
+    text-indent: 50px;
+    background: linear-gradient(45deg, white, orange 75%, black);
+    border: 3px solid black;
+    border-left: none;
+    border-right: none;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+}
+.navlist {
+    list-style-type: none;
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.navlink:link, .navlink:visited {
+    width: 150px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.navlink:hover {
+    background-color: grey;
+}
+
+.active:link, .active:visited{
+    width: 150px;
+    font-weight: bold;
+    color: orange;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+.active:hover {
+    background-color: grey;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: white;
+    width: 800px;
+    border: 5px black solid;
+    box-shadow: 0 10px 10px 5px black;
+    margin: auto;
+}
+
+.products {
+    padding: 5px;
+    clear: both;
+    width: 160px;
+    float: left;
+}
+
+.prodlist {
+    padding: 0 0 5px 5px;
+    list-style-type: none;
+}
+
+.prodlink {
+    border: 3px solid black;
+    width: 120px;
+    font-weight: bold;
+    color: black;
+    background-color: orange;
+    text-align: left;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+.prodlink:hover{
+    color: green;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 30px;
+}
+
+h2 {
+    margin: 5px;
+    font-size: 25px;
+}
+
+h3 {
+    margin: 5px;
+    font-size: 20px;
+}
+
+footer {
+    clear: both;
+    height: 50px;
+    line-height: 50px;
+    border-top-style: solid;
+    border-top-color: black;
+    border-top-width: 3px;
+    text-align: center;
+    font-size: 10px;
+    background: linear-gradient(45deg, black, orange 25%, white);  
+}
