@@ -1,0 +1,214 @@
+*{
+    font-family:sans-serif;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-image: url('../images/bats.gif');
+}
+
+.pumpkin {
+    float: left;
+    width: 10%;
+    min-width: 40px;
+}
+
+header {
+    height: 7em;
+    text-indent: 3em;
+    background: linear-gradient(45deg, white, orange 75%, black);
+    border: .12em solid black;
+    border-left: none;
+    border-right: none;
+}
+
+.menu{
+    visibility: hidden;
+    display: none;
+}
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+.navlisttop{
+    width:100%;
+    padding: 0;
+    margin: 0;
+}
+.navlist {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 20%
+}
+
+.navlink:link, .navlink:visited {
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: .25em;
+    text-decoration: none;
+    display: block;
+}
+
+.navlink:hover {
+    background-color: grey;
+}
+
+.active:link, .active:visited{
+    font-weight: bold;
+    color: orange;
+    background-color: black;
+    text-align: center;
+    padding: .25em;
+    text-decoration: none;
+    display: block;
+}
+.active:hover {
+    background-color: grey;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: white;
+    width: 95%;
+    max-width: 960px;
+    border: .25em black solid;
+    box-shadow: 0 1em 1em .25em black;
+    margin: auto;
+}
+
+.products {
+    padding: .25em;
+    width: 15%;
+    float: left;
+    height: 45em;
+}
+.mainpage {
+    float: right;
+    width: 80%;
+}
+
+.prodlist {
+    padding: 0 0 .25em .25em;
+    list-style-type: none;
+}
+
+.prodlink {
+    border: .2em solid black;
+    width: 8em;
+    font-weight: bold;
+    color: black;
+    background-color: orange;
+    text-align: left;
+    padding: .25em;
+    text-decoration: none;
+    display: block;
+}
+.prodlink:hover{
+    color: green;
+}
+
+h1 {
+    margin: .25em;
+    font-size: 2em;
+}
+
+h2 {
+    margin: .12em;
+    font-size: 1.5em;
+}
+h2::first-letter{
+    font-size: 3em;
+}
+
+h3 {
+    margin: .12em;
+    font-size: 1.25em;
+}
+
+.prodweek {
+    color: orange;
+    font-weight: bold;
+}
+.prodweek:hover {
+    color: green;
+}
+.cat1 {
+    width: 20%;
+}
+
+footer {
+    clear: both;
+    height: 5em;
+    line-height: 5em;
+    border-top-style: solid;
+    border-top-color: black;
+    border-top-width: .25em;
+    text-align: center;
+    font-size: .5em;
+    background: linear-gradient(45deg, black, orange 25%, white);  
+}
+
+@media only screen and (max-width: 800px) {
+    html {
+        background-image: none;
+        font-size: 90%;
+    }
+    body {
+        box-shadow: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navlink {
+        visibility: hidden;
+    }
+    .navlist {
+        display: none;
+    }
+    .active {
+        visibility: hidden;
+    }
+    .menu {
+        visibility: visible;
+        font-weight: bold;
+        display: block;
+        background-color: black;
+        color: white;
+        width: 100%;
+        text-align: right;
+        text-decoration: none;
+    }
+    .menu:hover {
+        background-color: grey;
+    }
+    .mainpage {
+        width: 100%;
+    }
+    .products {
+        float: none;
+        clear: both;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    main h1{
+        font-size: 80%;
+    }
+    main h2{
+        font-size: 80%;
+    }
+    main h3{
+        font-size: 80%;
+    }
+}
